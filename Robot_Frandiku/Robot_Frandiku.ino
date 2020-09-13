@@ -13,7 +13,7 @@
 #define echoPin A2 //analog input 2
 
 #define maximum_distance 200
-int distance = 50;
+int distance = 100;
 int readPing();
 NewPing sonar(trigPin, echoPin, maximum_distance); //sensor function
 
